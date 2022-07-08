@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Debug default",
+            "defines": [
+                "__MAGIC_NUMBER__=1"
+            ],
+            "includePath": [
+                "${workspaceFolder}"
+            ],
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+        }
+    ],
+    "version": 4
+}
