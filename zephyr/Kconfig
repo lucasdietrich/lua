@@ -1,5 +1,6 @@
 menuconfig LUA
         bool "Enable LUA module"
+        depends on !NEWLIB_LIBC_NANO
         default n
         help
           Enable support for LUA
